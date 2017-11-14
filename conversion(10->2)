@@ -1,0 +1,9 @@
+<html>
+<head>    <meta charset="UTF-8">    <title>Decimal to Binary</title></head>
+<body>    <script>        var i, n, dec;        var bin = [0, 0, 0, 0, 0, 0, 0, 0];
+        //10진수 -> 2진수 변환 ( 1~255)        n = 8;        do {            dec = parseInt(prompt(" 10진수입력 (0~255) : "));        }        while (dec < 0 || dec > 255);
+        document.write("10진수 : " + dec);
+        i = n - 1;
+        while (dec != 1) {            bin[i] = dec % 2;            dec = parseInt(dec / 2);            i--;        }        bin[i] = dec;        document.write("<BR> 2진수 : ");        /*        for (i = 0; i < n; i++)            document.write("  " + bin[i]);*/        document.write(bin);
+    </script></body>
+</html>
