@@ -1,0 +1,9 @@
+<html>
+<head>    <meta charset="UTF-8">    <title>Divisor(약수)</title></head>
+<body>    <script>        var input, i;
+        input = 0;        input = prompt("숫자를 입력하시오, q:종료");
+        while (input != "q") {            document.write(input + "의 약수 : ");            if (!isNaN(input) && (input > 0)) {                for (i = 1; i <= input; i = i + 1)                    if ((input % i) == 0) document.write(i + "  ");
+            } else {                document.write("입력오류");            }            document.write("<BR>");            input = prompt("숫자를 입력하시오, q:종료");        }
+        document.write("<BR>==========  약수 구하기 실행종료 ========== ");
+    </script></body>
+</html>
