@@ -1,0 +1,4 @@
+# javascript
+<!doctype html>
+<html> <head>  <title>Page Title</title>  <meta charset="UTF-8">  <meta name="viewport" content="initial-scale=1.0"> </head> <script>        //변수를 선언 및 초기화합니다.        var radius = 10;        var pi = 3.14159265;                //출력합니다        alert(2*radius*pi);    </script> <body>
+ </body></html>
