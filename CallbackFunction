@@ -1,0 +1,1 @@
+<HTML><head>    <meta charset="utf-8"/></head><body>   <script>    var count=1;                  function sayHello() {        console.log("Hello world JavaScript : ", count);        count++;    }        setTimeout(sayHello,1000);       // 1000ms 후에 호출하도록 sayHello 함수를 setTimeout에 인자로 전달           console.log("Hellow Callback function");   </script>    </body></HTML>
