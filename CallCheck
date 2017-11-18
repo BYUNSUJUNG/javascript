@@ -1,0 +1,1 @@
+<HTML><head><script>    // 변수를 생성합니다.    var func = function() {        alert('함수 A');    }        function func() {        alert('함수 B');    }        // 함수를 호출합니다.    func();    </script></head><body>    </body></HTML>
