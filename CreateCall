@@ -1,0 +1,5 @@
+<!doctype html>
+<html> <head>  <title>Page Title</title>  <meta charset="UTF-8">  <meta name="viewport" content="initial-scale=1.0"> </head> <script>      // 변수를 선언합니다.      var product={          name: 'Microsoft Visual Studio 2012 Ultimate',          price: '15,000,000원',          language:'한국어',          supportOS:'Wind 32/64',          subscription:true      };              // 출력 합니다         var output='';      for(var key in product) {          output += ''      }
+            </script>
+ <body>
+ </body></html>
