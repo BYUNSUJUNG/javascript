@@ -1,0 +1,2 @@
+<!DOCTYPE html><html>  <head>      <script>         function randomInt() {             return Math.floor(Math.random()*9) + 1;  //1~9         }      </script>  </head>  <body>    <p>오브젝트 내용을 확인하려면 클릭하세요!</p>    <button onclick="myFunction()">확인</button>    <p id="demo"></p>
+</html>
