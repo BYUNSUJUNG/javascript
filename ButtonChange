@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+    function myFunction() {
+    document.getElementById("myText").value = "Goodbye";
+    document.getElementById("myImage").src = "Black.jpg";
+    }
+    </script>
+  </head>
+
+  <body>
+    <input type="text" id="myText" value="Hello"> 
+    <img id="myImage" src="Yellow.jpg">
+    <button onclick="myFunction()">Change Style</button>
+  </body>
+</html>
