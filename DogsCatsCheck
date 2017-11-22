@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+   <title>Page Title</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="initial-scale=1.0">
+ </head>
+ <body>
+   Cats: <input name="animal" type="checkbox" value="Cats">
+   Dogs: <input name="animal" type="checkbox" value="Dogs">
+   <p>Click the button to chexk all checkboxes that have a name
+   attribute with the value "animal".</p> 
+   <button onclick="myFunction()">Try it</button>
+   <script>
+     function myFunction() { 
+       var x = document.getElementsByName("animal");
+       var i;
+       for(i=0; i<x.length; i++) {
+         if(x[i].type=="checkbox") {
+           x[i].checked = true; // checked
+           console.log(x[i].checked);
+         }
+       } 
+     }
+   </script>
+ </body>
+ </html>
