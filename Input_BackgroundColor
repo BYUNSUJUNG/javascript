@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+  <p>Thid example </p>
+  <input type="text" id="demo">
+  
+  <script> 
+    document.getElementById("demo").addEventListener("keypress", myFunction);
+    function myFunction() { 
+      document.getElementById("demo").style.backgroundColor = "red"; 
+    }  
+  </script>
+
+</body>
+</html>
