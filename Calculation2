@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script> 
+    Window.onload = function() {
+      Var button = document.getElementById("btn");   
+      Btn.addEventListener("click",function() {  
+      var exp=document.getElmentById("exp");  
+      var result= document.getElmentById("result");    
+      Result.value =eval(exp.value);   
+      });    
+    }   
+  </script> 
+</head>   
+<body>    
+  <h1>수식 계산</h1>  
+  <h2>계산식을 입력하시오</h2>  
+  <form>       
+    식 <input type="text" id="exp" value=""><br>   
+    값 <input type="text" id="result">    
+    <input type="button" id="btn" value="계산   ">  
+  </form>   
+</body>
+</html>
