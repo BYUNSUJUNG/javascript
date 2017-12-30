@@ -1,0 +1,23 @@
+<!doctype html>
+<html>  
+
+<body>
+
+        <select>    
+          <option id="myOption" value="volvocar">Volvo</option> 
+          <option value="saabcar">Saab</option>   
+        </select>  
+        
+        <button onclick="myFunction()">Try it</button>  
+        <p id="demo"></p>  
+        
+        <script>      
+        function myFunction() {   
+          var x = document.getElementById("myOption").text;   
+          document.getElementById("demo").innerHTML=x;  
+        }     
+        </script>
+        
+</body>
+
+</html>
